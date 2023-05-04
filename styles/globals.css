@@ -1,0 +1,112 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.message {
+  background-color: #ffe0e0;
+  border: 1px solid #ff4d4d;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accpoi {
+  text-align: center;
+}
+
+.primary:hover {
+  background-color: #0069d9;
+}
+
+.ghost {
+  background-color: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.ghost:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.DataQuery {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.DataQuery h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.LabelStyle {
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+.LabelStyle input {
+  width: 500px;
+  padding: 7px;
+  font-size: 16px;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  overflow-x: auto;
+}
+
+pre code {
+  display: block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.headerfont {
+  background-color: #231e39;
+  color: #fff;
+  font-size: xx-large;
+  text-align: center;
+  padding: 20px;
+}
+
+.headerfont h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.MetaName {
+  text-align: center;
+}
+.search {
+  text-align: center;
+}
